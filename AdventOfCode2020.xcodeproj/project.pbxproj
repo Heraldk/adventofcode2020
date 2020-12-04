@@ -13,6 +13,7 @@
 		CB5ACA962573F68F002C4C05 /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA952573F68F002C4C05 /* day01.swift */; };
 		CB5ACA9A2577061D002C4C05 /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA992577061D002C4C05 /* day02.swift */; };
 		CB5ACA9E25783CA7002C4C05 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA9D25783CA7002C4C05 /* day03.swift */; };
+		CB5ACAA2257A2B5F002C4C05 /* day04.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACAA1257A2B5F002C4C05 /* day04.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		CB5ACA952573F68F002C4C05 /* day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day01.swift; sourceTree = "<group>"; };
 		CB5ACA992577061D002C4C05 /* day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02.swift; sourceTree = "<group>"; };
 		CB5ACA9D25783CA7002C4C05 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
+		CB5ACAA1257A2B5F002C4C05 /* day04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day04.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				CB5ACA952573F68F002C4C05 /* day01.swift */,
 				CB5ACA992577061D002C4C05 /* day02.swift */,
 				CB5ACA9D25783CA7002C4C05 /* day03.swift */,
+				CB5ACAA1257A2B5F002C4C05 /* day04.swift */,
 				CB5ACA912573F3E6002C4C05 /* day.swift */,
 			);
 			path = AdventOfCode2020;
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5ACAA2257A2B5F002C4C05 /* day04.swift in Sources */,
 				CB5ACA9E25783CA7002C4C05 /* day03.swift in Sources */,
 				CB5ACA9A2577061D002C4C05 /* day02.swift in Sources */,
 				CB5ACA8F2573F3D6002C4C05 /* common.swift in Sources */,
