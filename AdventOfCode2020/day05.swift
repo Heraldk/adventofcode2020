@@ -8,67 +8,34 @@
 import Foundation
 
 class Day05 : AoCDay {
-    
-    func getSeatRowAndCol( str : String, rowRange : (Int, Int), colRange: (Int,Int) ) -> (Int, Int) {
-        if str.count == 0 {
-            return (rowRange.0, colRange.0)
+   
+    func readBoardingPass( str : String ) -> Int {
+        var id = 0
+        for char in str {
+            id <<= 1
+            if( char == "B" || char == "R" ) {
+                id |= 1
+            }
         }
-        var remainingString = str
-        let frontChar = remainingString.removeFirst()
-        
-        if frontChar == "F" || frontChar == "B" {
-            let midPoint = rowRange.0 + (rowRange.1 - rowRange.0) / 2
-            let newRowRange = frontChar == "F" ? (rowRange.0, midPoint) : (midPoint + 1, rowRange.1)
-            
-            return getSeatRowAndCol(str: remainingString, rowRange: newRowRange, colRange: colRange )
-        }
-        
-        assert( frontChar == "L" || frontChar == "R" )
-        let midPoint = colRange.0 + (colRange.1 - colRange.0) / 2
-        let newColRange = frontChar == "L" ? (colRange.0, midPoint) : (midPoint + 1, colRange.1)
-        
-        return getSeatRowAndCol(str: remainingString, rowRange: rowRange, colRange: newColRange)
-    }
-
-    let NUM_ROWS = 128
-    let NUM_COLS = 8
-    
-    func getIdFrom( row: Int, col: Int ) -> Int {
-        return (row * NUM_COLS) + col
-    }
-    
-    func getRowColFrom( id: Int ) -> (Int, Int) {
-        return (id / NUM_COLS, id % NUM_COLS)
+        return id
     }
 
     override func problem01()
     {
         let rows = input.components(separatedBy: "\n")
-        var emptySeats = [Int : Bool]()
         
-        // keep track of empty seats
-        for x in 0...getIdFrom(row: NUM_ROWS-1, col: NUM_COLS-1) {
-            emptySeats[x] = true
+        let seats = rows.reduce( into: [Int:Bool]()) {
+            $0[readBoardingPass( str: $1 )] = true
         }
         
-        var maxId = 0
-        var minRow = NUM_ROWS // use min and max rows to prune out front and back rows
-        var maxRow = 0
-        for input in rows {
-            let (row, col) = getSeatRowAndCol(str: input, rowRange: (0,NUM_ROWS - 1), colRange: (0,NUM_COLS - 1))
-            let id = getIdFrom(row: row, col: col)
-            maxId = max(maxId,id)
-            minRow = min(minRow, row)
-            maxRow = max(maxRow, row)
-            emptySeats[id] = nil // remove this seat from available empty seats
-        }
+        let maxId = seats.keys.max()!
         print( maxId )
         
-        // find the one seat that's inside the min/max row range
-        for (key, _) in emptySeats {
-            let (row, _) = getRowColFrom(id: key)
-            if row > minRow && row < maxRow {
-                print( key )
+        let minId = seats.keys.min()!
+        
+        for x in minId ... maxId {
+            if seats[x] == nil {
+                print( x )
                 break
             }
         }
