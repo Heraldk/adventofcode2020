@@ -10,7 +10,7 @@ import Foundation
 class Day01 : AoCDay {
     
     // assumes there aren't
-    func findPairThatSum( to target: Int, list: [Int] ) -> (Int, Int)? {
+    static func findPairThatSum( to target: Int, list: ArraySlice<Int> ) -> (Int, Int)? {
         // use a map to save numbers we've seen so far so we only have to do one pass through the array
         var map = [Int : Bool]()
         
@@ -21,6 +21,10 @@ class Day01 : AoCDay {
             map[val] = true
         }
         return nil
+    }
+    
+    func findPairThatSum( to target: Int, list: [Int] ) -> (Int, Int)? {
+        return Day01.findPairThatSum( to: target, list: list[0..<list.count] )
     }
     
     override func problem01() {
