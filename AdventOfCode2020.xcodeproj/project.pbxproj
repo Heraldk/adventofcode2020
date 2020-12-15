@@ -24,6 +24,7 @@
 		CB5ACAC22584B301002C4C05 /* day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACAC12584B301002C4C05 /* day12.swift */; };
 		CB5ACAC62586063C002C4C05 /* day13.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACAC52586063B002C4C05 /* day13.swift */; };
 		CB5ACACA25875948002C4C05 /* day14.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACAC925875948002C4C05 /* day14.swift */; };
+		CB5ACACE25881FFB002C4C05 /* day15.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACACD25881FFB002C4C05 /* day15.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		CB5ACAC12584B301002C4C05 /* day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day12.swift; sourceTree = "<group>"; };
 		CB5ACAC52586063B002C4C05 /* day13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day13.swift; sourceTree = "<group>"; };
 		CB5ACAC925875948002C4C05 /* day14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day14.swift; sourceTree = "<group>"; };
+		CB5ACACD25881FFB002C4C05 /* day15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CB5ACAC12584B301002C4C05 /* day12.swift */,
 				CB5ACAC52586063B002C4C05 /* day13.swift */,
 				CB5ACAC925875948002C4C05 /* day14.swift */,
+				CB5ACACD25881FFB002C4C05 /* day15.swift */,
 				CB5ACA912573F3E6002C4C05 /* day.swift */,
 			);
 			path = AdventOfCode2020;
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5ACACE25881FFB002C4C05 /* day15.swift in Sources */,
 				CB5ACAC22584B301002C4C05 /* day12.swift in Sources */,
 				CB5ACABE2583642A002C4C05 /* day11.swift in Sources */,
 				CB5ACAC62586063C002C4C05 /* day13.swift in Sources */,
