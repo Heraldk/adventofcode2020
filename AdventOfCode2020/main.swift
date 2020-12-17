@@ -7,7 +7,7 @@
 
 import Foundation
 
-let currentDay = Day16()
+let currentDay = Day17()
 
 currentDay.problem01()
 currentDay.problem02()
