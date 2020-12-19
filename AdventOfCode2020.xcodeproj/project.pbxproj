@@ -28,6 +28,7 @@
 		CB8526E025895E700016E242 /* day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526DF25895E700016E242 /* day16.swift */; };
 		CB8526E4258A8D150016E242 /* day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526E3258A8D150016E242 /* day17.swift */; };
 		CB8526E8258C9B3C0016E242 /* day18.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526E7258C9B3C0016E242 /* day18.swift */; };
+		CB8526EC258D27820016E242 /* day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526EB258D27820016E242 /* day19.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		CB8526DF25895E700016E242 /* day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day16.swift; sourceTree = "<group>"; };
 		CB8526E3258A8D150016E242 /* day17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day17.swift; sourceTree = "<group>"; };
 		CB8526E7258C9B3C0016E242 /* day18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day18.swift; sourceTree = "<group>"; };
+		CB8526EB258D27820016E242 /* day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day19.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				CB8526DF25895E700016E242 /* day16.swift */,
 				CB8526E3258A8D150016E242 /* day17.swift */,
 				CB8526E7258C9B3C0016E242 /* day18.swift */,
+				CB8526EB258D27820016E242 /* day19.swift */,
 				CB5ACA912573F3E6002C4C05 /* day.swift */,
 			);
 			path = AdventOfCode2020;
@@ -193,6 +196,7 @@
 				CB5ACABE2583642A002C4C05 /* day11.swift in Sources */,
 				CB5ACAC62586063C002C4C05 /* day13.swift in Sources */,
 				CB5ACAAE257D35B9002C4C05 /* day07.swift in Sources */,
+				CB8526EC258D27820016E242 /* day19.swift in Sources */,
 				CB5ACAAA257B9967002C4C05 /* day06.swift in Sources */,
 				CB5ACAA2257A2B5F002C4C05 /* day04.swift in Sources */,
 				CB5ACA9E25783CA7002C4C05 /* day03.swift in Sources */,
