@@ -31,6 +31,7 @@
 		CB8526EC258D27820016E242 /* day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526EB258D27820016E242 /* day19.swift */; };
 		CB8526F0258F45340016E242 /* day20.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526EF258F45340016E242 /* day20.swift */; };
 		CB8526F4258FCC560016E242 /* BitSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526F3258FCC560016E242 /* BitSet.swift */; };
+		CB8526F825908F1A0016E242 /* day21.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526F725908F1A0016E242 /* day21.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		CB8526EB258D27820016E242 /* day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day19.swift; sourceTree = "<group>"; };
 		CB8526EF258F45340016E242 /* day20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day20.swift; sourceTree = "<group>"; };
 		CB8526F3258FCC560016E242 /* BitSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitSet.swift; sourceTree = "<group>"; };
+		CB8526F725908F1A0016E242 /* day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day21.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				CB8526E7258C9B3C0016E242 /* day18.swift */,
 				CB8526EB258D27820016E242 /* day19.swift */,
 				CB8526EF258F45340016E242 /* day20.swift */,
+				CB8526F725908F1A0016E242 /* day21.swift */,
 				CB5ACA912573F3E6002C4C05 /* day.swift */,
 				CB8526F3258FCC560016E242 /* BitSet.swift */,
 			);
@@ -201,6 +204,7 @@
 				CB5ACAC22584B301002C4C05 /* day12.swift in Sources */,
 				CB5ACABE2583642A002C4C05 /* day11.swift in Sources */,
 				CB5ACAC62586063C002C4C05 /* day13.swift in Sources */,
+				CB8526F825908F1A0016E242 /* day21.swift in Sources */,
 				CB5ACAAE257D35B9002C4C05 /* day07.swift in Sources */,
 				CB8526EC258D27820016E242 /* day19.swift in Sources */,
 				CB5ACAAA257B9967002C4C05 /* day06.swift in Sources */,
