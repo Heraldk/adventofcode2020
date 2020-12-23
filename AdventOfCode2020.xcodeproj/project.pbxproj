@@ -33,6 +33,7 @@
 		CB8526F4258FCC560016E242 /* BitSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526F3258FCC560016E242 /* BitSet.swift */; };
 		CB8526F825908F1A0016E242 /* day21.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526F725908F1A0016E242 /* day21.swift */; };
 		CB8526FD2591E2650016E242 /* day22.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526FC2591E2650016E242 /* day22.swift */; };
+		CB8527012591EDA20016E242 /* day23.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8527002591EDA20016E242 /* day23.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +76,7 @@
 		CB8526F3258FCC560016E242 /* BitSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitSet.swift; sourceTree = "<group>"; };
 		CB8526F725908F1A0016E242 /* day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day21.swift; sourceTree = "<group>"; };
 		CB8526FC2591E2650016E242 /* day22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day22.swift; sourceTree = "<group>"; };
+		CB8527002591EDA20016E242 /* day23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day23.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				CB8526EF258F45340016E242 /* day20.swift */,
 				CB8526F725908F1A0016E242 /* day21.swift */,
 				CB8526FC2591E2650016E242 /* day22.swift */,
+				CB8527002591EDA20016E242 /* day23.swift */,
 				CB5ACA912573F3E6002C4C05 /* day.swift */,
 				CB8526F3258FCC560016E242 /* BitSet.swift */,
 			);
@@ -220,6 +223,7 @@
 				CB8526F4258FCC560016E242 /* BitSet.swift in Sources */,
 				CB5ACAB62580C23A002C4C05 /* day09.swift in Sources */,
 				CB8526F0258F45340016E242 /* day20.swift in Sources */,
+				CB8527012591EDA20016E242 /* day23.swift in Sources */,
 				CB5ACAB2257ECFA5002C4C05 /* day08.swift in Sources */,
 				CB8526E025895E700016E242 /* day16.swift in Sources */,
 				CB5ACA8F2573F3D6002C4C05 /* common.swift in Sources */,
