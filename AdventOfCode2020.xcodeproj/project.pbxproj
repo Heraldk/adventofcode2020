@@ -34,6 +34,7 @@
 		CB8526F825908F1A0016E242 /* day21.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526F725908F1A0016E242 /* day21.swift */; };
 		CB8526FD2591E2650016E242 /* day22.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526FC2591E2650016E242 /* day22.swift */; };
 		CB8527012591EDA20016E242 /* day23.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8527002591EDA20016E242 /* day23.swift */; };
+		CB852705259482D90016E242 /* day24.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB852704259482D90016E242 /* day24.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,7 @@
 		CB8526F725908F1A0016E242 /* day21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day21.swift; sourceTree = "<group>"; };
 		CB8526FC2591E2650016E242 /* day22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day22.swift; sourceTree = "<group>"; };
 		CB8527002591EDA20016E242 /* day23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day23.swift; sourceTree = "<group>"; };
+		CB852704259482D90016E242 /* day24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day24.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				CB8526F725908F1A0016E242 /* day21.swift */,
 				CB8526FC2591E2650016E242 /* day22.swift */,
 				CB8527002591EDA20016E242 /* day23.swift */,
+				CB852704259482D90016E242 /* day24.swift */,
 				CB5ACA912573F3E6002C4C05 /* day.swift */,
 				CB8526F3258FCC560016E242 /* BitSet.swift */,
 			);
@@ -219,6 +222,7 @@
 				CB5ACA9E25783CA7002C4C05 /* day03.swift in Sources */,
 				CB5ACAA6257AB81B002C4C05 /* day05.swift in Sources */,
 				CB5ACA9A2577061D002C4C05 /* day02.swift in Sources */,
+				CB852705259482D90016E242 /* day24.swift in Sources */,
 				CB8526E4258A8D150016E242 /* day17.swift in Sources */,
 				CB8526F4258FCC560016E242 /* BitSet.swift in Sources */,
 				CB5ACAB62580C23A002C4C05 /* day09.swift in Sources */,
