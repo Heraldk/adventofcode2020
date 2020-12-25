@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CB5ACA872573F396002C4C05 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA862573F396002C4C05 /* main.swift */; };
 		CB5ACA8F2573F3D6002C4C05 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA8E2573F3D6002C4C05 /* common.swift */; };
-		CB5ACA922573F3E6002C4C05 /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA912573F3E6002C4C05 /* day.swift */; };
 		CB5ACA962573F68F002C4C05 /* day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA952573F68F002C4C05 /* day01.swift */; };
 		CB5ACA9A2577061D002C4C05 /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA992577061D002C4C05 /* day02.swift */; };
 		CB5ACA9E25783CA7002C4C05 /* day03.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ACA9D25783CA7002C4C05 /* day03.swift */; };
@@ -35,6 +34,7 @@
 		CB8526FD2591E2650016E242 /* day22.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8526FC2591E2650016E242 /* day22.swift */; };
 		CB8527012591EDA20016E242 /* day23.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8527002591EDA20016E242 /* day23.swift */; };
 		CB852705259482D90016E242 /* day24.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB852704259482D90016E242 /* day24.swift */; };
+		CB8527092595E29D0016E242 /* day25.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8527082595E29D0016E242 /* day25.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +53,6 @@
 		CB5ACA832573F396002C4C05 /* AdventOfCode2020 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2020; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5ACA862573F396002C4C05 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CB5ACA8E2573F3D6002C4C05 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
-		CB5ACA912573F3E6002C4C05 /* day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day.swift; sourceTree = "<group>"; };
 		CB5ACA952573F68F002C4C05 /* day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day01.swift; sourceTree = "<group>"; };
 		CB5ACA992577061D002C4C05 /* day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02.swift; sourceTree = "<group>"; };
 		CB5ACA9D25783CA7002C4C05 /* day03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day03.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		CB8526FC2591E2650016E242 /* day22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day22.swift; sourceTree = "<group>"; };
 		CB8527002591EDA20016E242 /* day23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day23.swift; sourceTree = "<group>"; };
 		CB852704259482D90016E242 /* day24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day24.swift; sourceTree = "<group>"; };
+		CB8527082595E29D0016E242 /* day25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day25.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,7 @@
 				CB8526FC2591E2650016E242 /* day22.swift */,
 				CB8527002591EDA20016E242 /* day23.swift */,
 				CB852704259482D90016E242 /* day24.swift */,
-				CB5ACA912573F3E6002C4C05 /* day.swift */,
+				CB8527082595E29D0016E242 /* day25.swift */,
 				CB8526F3258FCC560016E242 /* BitSet.swift */,
 			);
 			path = AdventOfCode2020;
@@ -231,7 +231,7 @@
 				CB5ACAB2257ECFA5002C4C05 /* day08.swift in Sources */,
 				CB8526E025895E700016E242 /* day16.swift in Sources */,
 				CB5ACA8F2573F3D6002C4C05 /* common.swift in Sources */,
-				CB5ACA922573F3E6002C4C05 /* day.swift in Sources */,
+				CB8527092595E29D0016E242 /* day25.swift in Sources */,
 				CB5ACABA2581865B002C4C05 /* day10.swift in Sources */,
 				CB5ACACA25875948002C4C05 /* day14.swift in Sources */,
 				CB5ACA962573F68F002C4C05 /* day01.swift in Sources */,
